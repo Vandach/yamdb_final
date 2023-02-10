@@ -21,7 +21,9 @@ jobs:
         # переходим в папку с проектом
         cd api_yamdb/
         # установка зависимостей
-        pip install -r requirements.txt 
+        pip install -r requirements.txt
+    - name: Test with pytest
+      run: pytest
     - name: Test with flake8 and django tests
       run: |
         # запуск проверки проекта по flake8
