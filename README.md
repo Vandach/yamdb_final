@@ -20,21 +20,21 @@ git clone git@github.com:{ваш Ник на github}/yamdb_final.git
 
 На github добавьте в Settings Secrets значения: 
 
-SECRET_KEY= {секретный ключ Django}
-USER= {имя для подключения к серверу}
-HOST= {IP сервера}
-PASSPHRASE= {пароль при подключении к серверу (если есть)}
-SSH_KEY= {SSH ключ для подключения к серверу}
-TELEGRAM_TO= {id телеграма куда будет приходить результат проверки на github}
-TELEGRAM_TOKEN= {токен Вашего бота телеграм, который будет отвечать за отправку результатов проверки}
-DOCKER_USERNAME= {Ваш Ник на Docker Hub}
-DOCKER_PASSWORD= {Ваш пароль на Docker Hub}
-DB_ENGINE= {django.db.backends.postgresql}
-DB_NAME= {postgres}
-DB_USER= {postgres}
-DB_PASSWORD= {postgres}
-DB_HOST= {db}
-DB_PORT= {5432}
+SECRET_KEY= {секретный ключ Django}  
+USER= {имя для подключения к серверу}  
+HOST= {IP сервера}  
+PASSPHRASE= {пароль при подключении к серверу (если есть)}  
+SSH_KEY= {SSH ключ для подключения к серверу}  
+TELEGRAM_TO= {id телеграма куда будет приходить результат проверки на github}  
+TELEGRAM_TOKEN= {токен Вашего бота телеграм, который будет отвечать за отправку результатов проверки}  
+DOCKER_USERNAME= {Ваш Ник на Docker Hub}  
+DOCKER_PASSWORD= {Ваш пароль на Docker Hub}  
+DB_ENGINE= {django.db.backends.postgresql}  
+DB_NAME= {postgres}  
+DB_USER= {postgres}  
+DB_PASSWORD= {postgres}  
+DB_HOST= {db}  
+DB_PORT= {5432}  
 
 Установите на своём сервере Docker и Docker-Compose.
 
