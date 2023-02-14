@@ -26,6 +26,12 @@ jobs:
         cd api_yamdb/
         python manage.py test   
 
+
+name: Django-app workflow2
+
+on: [push]
+
+
   build_and_push_to_docker_hub:
       name: Push Docker image to Docker Hub
       runs-on: ubuntu-latest
