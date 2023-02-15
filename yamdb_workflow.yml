@@ -1,4 +1,4 @@
-name: Django-app master workflow
+name: Django-app master workflow two
 
 on:
   push:
