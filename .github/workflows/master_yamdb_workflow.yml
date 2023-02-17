@@ -1,9 +1,6 @@
 name: Django-app master workflow
 
-on:
-  push:
-    branches:
-      - 'master'
+on: [push]
 
 jobs:
 
