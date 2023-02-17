@@ -1,4 +1,4 @@
-![This is an image](https://github.com/Vandach/yamdb_final/actions/workflows/master_yamdb_workflow.yml/badge.svg)
+![This is an image](https://github.com/Vandach/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ### Ссылка на проект:
 
